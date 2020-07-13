@@ -16,3 +16,13 @@ Object.setPrototypeOf(obj1, obj2);
 const {a,b} = obj1
 console.log(a)
 console.log(b)
+
+var { xx = 3, yy } = {};
+console.log(xx)
+console.log(yy)
+console.log(undefined === null)
+
+const arry = ['a', 'b', 'c', 'd', 'd']
+const { 0: first, [arry.length - 1]: last } = arry
+console.log(first)
+console.log(last)
