@@ -2,6 +2,14 @@
 var a = `this is a string demo
 this is a new line    i`
 console.log(a.trim())
+// 函数
+function add(a, b) {
+  return a + b
+}
+let adda = 1
+let addb = 2
+let word = `${adda} + ${addb} = ${add(adda, addb)}`
+console.log(word) // '1 + 2 = 3'
 // 模板表达式
 let firstNum = 1
 let secondNum = 2
@@ -25,5 +33,3 @@ const requireStr = `
 我们叫${qiantao.map(item=>`${item.name}`).join(',')}
 `
 console.log(requireStr)
-
-console.assert('a'.codePointAt())
