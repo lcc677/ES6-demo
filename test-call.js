@@ -17,17 +17,7 @@
 // console.log(factorial(5)) // 120
 
 
-var buz = {
-  fog: 'stack',
-  a(){}
-};
-
-for (var name in buz) {
-  if (buz.hasOwnProperty(name)) {
-    console.log('this is fog (' +
-      name + ') for sure. Value: ' + buz[name]);
-  }
-  else {
-    console.log(name); // toString or something else
-  }
+function clownsEverywhere(param1,param2,) {
+   console.log(000) 
 }
+clownsEverywhere()
