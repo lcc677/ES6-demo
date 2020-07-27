@@ -7,7 +7,7 @@ let s1 = Symbol('key1')
 console.log(Symbol.keyFor(s1))
 let s2 = Symbol.for('key1')
 
-console.log(s1 === s2)
+console.log(s1 === s2);
 // let obj2 = {
 //   [s1]: "value",
 //   s1:'s1'
