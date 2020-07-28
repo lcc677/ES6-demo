@@ -23,11 +23,14 @@ console.log(mapM)
 // // console.log(wm)
 // // console.log(map)
 
-const wm = new WeakMap();
-let key = {};
-let obj = { foo: 1 };
+const wm = new WeakMap()
+let key = {}
+let obj = { foo: 1 }
 
-wm.set(key, obj);
+wm.set(key, obj)
+console.log(wm)
+key = {"p":1}
+console.log(wm)
 console.log(wm.has(key))
 // obj = null;
 // wm.get(key)
