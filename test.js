@@ -16,22 +16,22 @@
 // console.log(sum(1, 100000))
 
 function tco(f) {
-    var value;
-    var active = false;
-    var accumulated = [];
+    var value
+    var active = false
+    var accumulated = []
 
     return function accumulator() {
         console.trace()
-        accumulated.push(arguments);
+        accumulated.push(arguments)
         if (!active) {
-            active = true;
+            active = true
             while (accumulated.length) {
-                value = f.apply(this, accumulated.shift());
+                value = f.apply(this, accumulated.shift())
             }
-            active = false;
-            return value;
+            active = false
+            return value
         }
-    };
+    }
 }
 
 var sum = tco(function(x, y) {
@@ -40,7 +40,7 @@ var sum = tco(function(x, y) {
     } else {
         return x
     }
-});
+})
 
 console.log(sum(1, 100000))
 

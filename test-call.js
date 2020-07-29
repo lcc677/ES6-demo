@@ -21,3 +21,7 @@ function clownsEverywhere(param1,param2,) {
    console.log(000) 
 }
 clownsEverywhere()
+var a = 99
+console.log();
+
+console.log(module.a)
