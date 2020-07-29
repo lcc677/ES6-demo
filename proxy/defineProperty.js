@@ -1,7 +1,7 @@
 var handler = {
   defineProperty(target, key, descriptor) {
     console.log('defineProperty run')
-    Reflect.defineProperty(target,key,descriptor)
+    // Reflect.defineProperty(target,key,descriptor)
     return false
   },
   // set(target,prop,value,rescriver){
