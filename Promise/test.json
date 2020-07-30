@@ -1,0 +1,22 @@
+{
+  "voucher": 0.0,
+  "us_gross_profit": 1.90798,
+  "first_leg": 0.0,
+  "pingtai_fee": 0.9390965609999999,
+  "expression": "(\u8ba2\u5355\u603b\u8d39\u7528\uff08\u987e\u5ba2\u5b9e\u9645\u4ed8\u6b3e\uff09-\u7269\u6d41\u8d39\u7528\uff08\u5c3e\u7a0b\u987e\u5ba2\u6240\u4ed8\u8fd0\u8d39\uff09-\u4f63\u91d1-\u4ea4\u6613\u8d39-\u5934\u7a0b\u8fd0\u8d39-\u91c7\u8d2d\u6210\u672c-\u5305\u6750\u8d39+Shopee Coins Redeemed+Shopee Voucher -\u7a0e\u989d )/(\u8ba2\u5355\u603b\u8d39\u7528\uff08\u987e\u5ba2\u5b9e\u9645\u4ed8\u6b3e\uff09-\u7269\u6d41\u8d39\u7528\uff08\u5c3e\u7a0b\u987e\u5ba2\u6240\u4ed8\u8fd0\u8d39\uff09",
+  "price": 7.9294703688678,
+  "packing_fee": 0.03579456775,
+  "gross_profit": 13.325904,
+  "CNYtoUSD": 0.143178271,
+  "coins_redeemed": 0.0,
+  "SELLERtoUSD": 0.01935284,
+  "carrier_fee": 0.45101155364999995,
+  "total_weight": 49.0,
+  "Processingfee": 0.0,
+  "PlatformRate": 0.075,
+  "sale_price": 12.521287,
+  "pp_fee": null,
+  "profit_rate": 0.16939715,
+  "sales_tax": 0.0,
+  "result": true
+}
