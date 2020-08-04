@@ -20,4 +20,24 @@ console.log("+++++++")
 // promise.then(function(){
 //   console.log("chenggon")
 // })
+const p1 = new Promise(function (resolve, reject) {
+  // console.log(9999)
+  // reject()
+  // throw new Error()
+  setTimeout(() => {
+    resolve(1)
+    // console.log(ppp)
+    // throw new Error("999")
+    // reject()
+  }, 3000)
+})
 
+p1.then(value => {
+  // console.log(8888)
+  throw new Error("j")
+  // console.log(111)
+}).catch(value => {
+  console.log("7777")
+  // console.log(value)
+})
+console.log(1010)
