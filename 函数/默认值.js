@@ -1,6 +1,6 @@
 function log(x, y) {
-  y = y || 'World';
-  console.log(x, y);
+  y = y || 'World'
+  console.log(x, y)
 }
 let a = 0
 let b = null

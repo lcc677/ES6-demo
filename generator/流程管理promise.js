@@ -1,10 +1,20 @@
-var readFile = require('fs-readfile-promise')
+var fs = require('fs')
+
+function readFilePromise(path){
+  return new Promise(function(resolve,reject){
+    fs.readFile(path,function(err,str){
+      if(err) reject(err)
+      else resolve(str)
+    })
+  })
+}
+
 
 console.log("--------------------------")
 var gen = function* () {
-  var r1 = yield readFile('./generator/dump.sql')
+  var r1 = yield readFilePromise('./generator/基础用法.js')
   console.log(r1.toString())
-  var r2 = yield readFile('./generator/dump2.sql')
+  var r2 = yield readFilePromise('./generator/基础用法.js')
   console.log(r2.toString())
 }
 var g = gen()
@@ -15,6 +25,8 @@ function ff(n){
     n.value.then(function (str) {
       console.log(str.toString())
       ff(g.next(str))
+    }).catch(err=>{
+      console.log(err)
     })
     console.log(22222222222222)
   }
