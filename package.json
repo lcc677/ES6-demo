@@ -15,5 +15,10 @@
   "license": "ISC",
   "devDependencies": {
     "eslint": "^7.5.0"
+  },
+  "dependencies": {
+    "fs-readfile-promise": "^3.0.1",
+    "node-fetch": "^2.6.0",
+    "thunkify": "^2.1.2"
   }
 }
