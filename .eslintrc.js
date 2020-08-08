@@ -16,5 +16,6 @@ module.exports = {
     rules: {
         // 'no-new-object': 2,
         'semi': [2, 'never'],
+        "parserOptions": { "ecmaVersion": 10 },
     }
 }
