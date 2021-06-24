@@ -1,6 +1,6 @@
 // -----------------------match---------------------
 console.log('-----------------------match---------------------')
-let ss = 'zhis name is jksajl name'
+let ss = 'zhis name name is jksajl name'
 let reg = new RegExp('name','g')
 let result = ss.match(reg)
 console.log(result)
