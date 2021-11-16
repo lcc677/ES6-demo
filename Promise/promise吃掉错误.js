@@ -10,7 +10,7 @@ someAsyncThing().then(function () {
 })
 
 setTimeout(() => { console.log(123) }, 2000)
-process.on('unhandledRejection', function (err, p) {
-  console.log(err)
-  // throw err
-})
+// process.on('unhandledRejection', function (err, p) {
+//   console.log(err)
+//   // throw err
+// })
